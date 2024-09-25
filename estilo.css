@@ -1,0 +1,112 @@
+body{
+    margin: 0;
+}
+
+.main-cadastro{
+    width: 100vw;
+    height: 100vh;
+    background: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left-cadastro{
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.right-cadastro{
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-cadastro{
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px 35px;
+    background: rgb(52, 50, 50);
+    border-radius: 20px;
+    box-shadow: 0px 10px 40 px #00000056;
+}
+
+.card-cadastro > h1{
+    color:aliceblue ;
+    font-weight: 800;
+    margin: 0;
+}
+
+.textfild{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin: 10px 0px;
+}
+
+.textfild > input{
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    padding: 15px;
+    background: aliceblue;
+    color: black;
+    font-size: 12pt;
+    box-shadow: 0px 10px 40 px #00000056;
+    outline: none;
+    box-sizing: border-box;
+}
+
+.textfild > label{
+    color: aliceblue;
+    margin-bottom: 10px;
+}
+
+.textfild > input::placeholder{
+    color:cadetblue;
+}
+
+.btn-cadastro{
+    width: 100%;
+    padding: 16px 0px;
+    margin: 25px;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 2px;
+    color: black;
+    background: aliceblue;
+    cursor: pointer;
+    box-shadow: 0px 10px 40px -12px aliceblue
+}
+footer{
+    background-color: black;
+}
+footer .container{
+    display: flex;
+    color: white;
+}
+footer .container ul{
+    width: 25%;
+}
+footer .container h3{
+    margin-bottom: 16px;
+    font-weight: 600;
+}
+footer .container li{
+    margin:10px 0;
+}
+footer .container a{
+    color: white;
+}
